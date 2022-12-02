@@ -7,6 +7,7 @@ int main()
     a = 12 - a;
     a = a % 12;
     b = 60 - b;
+    b = b % 60;
     printf("The time is: %2.2d:%2.2d",a,b);
 return 0;
 }
